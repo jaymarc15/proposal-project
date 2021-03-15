@@ -1,0 +1,92 @@
+/**
+ * Signup
+ */
+ body {
+    padding: 0;
+    background-image: url(../imgs/header4.jpg);
+    background-size: cover;
+    justify-content: center;
+  }
+  .hole{
+    text-align: justify;
+    
+}
+
+input[type=text], input[type=password]­ {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+
+input[type=text]:foc­us, input[type=password]­:focus {
+background-color: #ddd;
+outline: none;
+}
+
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+ 
+button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+button:hover {
+opacity:1;
+}
+h1{
+   text-align: center;
+}
+.dateInput{
+    width: 60px;
+}
+.cancelbtn {
+padding: 14px 20px;
+background-color: #f44336;
+}
+
+ .cancelbtn, .signupbtn {
+float: left;
+width: 50%;
+}
+
+ 
+.container {
+border: 1px solid black;
+border-radius: 50px;
+background-color: rgba(128, 128, 128, 0.308);
+    align-content: center;
+   width: 500px;
+   margin: 100px 400px 100px 400px;
+    padding: 10px 25px 10px 25px;
+    justify-content: center;
+}
+.container1 {
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.308);
+        align-content: center;
+       width: 300px;
+       margin: 100px 450px 100px 500px;
+        padding: 10px 25px 10px 25px;
+        justify-content: center;
+    }
+
+ 
+.pindutan::after {
+content: "";
+clear: both;
+display: table;
+}
